@@ -1,0 +1,9 @@
+.wxt/
+logs/
+dist/
+node_modules/
+.DS_Store
+stats.html
+stats-*.json
+pnpm-debug.log*
+web-ext.config.ts
