@@ -16,5 +16,18 @@
     "@biomejs/biome": "2.3.11",
     "typescript": "5.9.3",
     "wxt": "0.20.13"
+  },
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=10"
+  },
+  "devEngines": {
+    "runtime": [
+      {
+        "name": "node",
+        "version": ">=24",
+        "onFail": "download"
+      }
+    ]
   }
 }
